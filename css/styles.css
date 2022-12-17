@@ -60,7 +60,7 @@
   }
 
   .menu a{
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-left: 20%;
     margin-right: 20%;
 
@@ -167,15 +167,15 @@
     }
 
     .artist_list {
-        width: 17%;
-        flex: 0 0 calc((100%-54px)/4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+
     }    
-    .muse{
-        max-width: 96%;
-        max-height: 96%;
-    }
+
     h1{
-        flex: 0 0 100%;
+
         margin-top: 70px;
         margin-bottom: 50px;
         text-align: center;
@@ -183,21 +183,27 @@
         font-size: 4rem;
     }
     .artist_list{
-        display: block;
+        width: 24.4rem;
+        display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 30px;
+        flex-wrap: wrap;
+        flex: 0 0 calc((100%-54px)/4);
+        margin-left: 3rem;
+        margin-right: 3rem;
         
     }
     .artist_recommend h3{
+        width: 24.4rem;
         margin-top: 46px;
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
     .artist_recommend p{
+        width: 24.4rem;
         font-size: 1.6rem;
-        margin-top: 10px;
+        margin-top: 1rem;
         color: #d9d9d9;
-        margin-bottom: 40px;
+        margin-bottom: 4rem;
     }
     .artist_recommend h3, p{
         text-align: center;
@@ -221,6 +227,15 @@
         align-items: center;
         margin: 0 auto;
     }
+    .chart{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .chart_content_box{
         width: 65vw;
         display: flex;
@@ -233,30 +248,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 65vw;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
         margin-bottom: 2rem;
     }
-    .container3{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 68vw;
-            margin-bottom: 2rem;
-        }
-    .container4{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 68vw;
-        margin-bottom: 2rem;
-    }
-    .container5{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 68vw;
-        margin-bottom: 2rem;
-    }
+
     .container6{
         display: flex;
         justify-content: center;
@@ -280,31 +277,38 @@
         margin-right: auto;
     }
     .chart_nav {    
-        width: 65vw;
+        width: 80%;
         height: 3rem;
         border: solid #333;
         background-color: #333;
-        margin-left: 17%;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         color: #fff;
     }
+    .ranking{
+        margin-right: 20rem;
+        margin-left: 3rem;
+    }
 
     .chart_nav li p {
-        width: 200%;
+        width: 100%;
         min-height: 10px;
         font-size: 3%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 
     .three_button{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        margin-left: 8vw;
+        margin-left: 16rem;
+    }
+    .information{
+        margin-right: 12rem;
+        margin-left: 2rem;
     }
     .button1{
         margin-left: 32px;
@@ -364,7 +368,6 @@
         margin-right: 3rem;
     }
     .play{
-        margin-left: 5rem;
         margin-right: 4rem;
         width: 4rem;
         height: 4rem;
@@ -395,8 +398,9 @@
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        width: 30vw;
-        margin-right: 10%;
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 20%;
     }
     .last_content_text h2{
         text-align: center;
@@ -418,7 +422,7 @@
         text-align: center;
     }    
     .go p{
-        height: 7vh;
+        height: 8vh;
         width: 10vw;
         margin-top: 60%;
         border: solid #333;
@@ -432,6 +436,7 @@
     .christmas{
        width: 50rem;
        height: 50rem;
+       margin-left: 20%;
     }
     .muse{
          transition: all 0.2s linear;
