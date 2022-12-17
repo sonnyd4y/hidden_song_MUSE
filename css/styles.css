@@ -316,7 +316,15 @@
         margin-left: 6rem;
 
     }
-
+    .song_chart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        flex-wrap: wrap;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
     .chart_list {
         width: 100%;
