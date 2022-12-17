@@ -243,25 +243,23 @@
         align-items: center;
         margin: 0 auto;
     }
+
     .container2{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
         margin-bottom: 2rem;
     }
 
-    .container6{
+ .container6{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 10%;
-        margin-right: 10%;
         width: 80%;
         margin-bottom: 8rem;
     }
+
     .this_week h3{
         font-size: 4rem;
         width: 30rem;
