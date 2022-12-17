@@ -473,7 +473,7 @@
         margin-bottom: 2%;
     }
     .footer{
-        height: 16rem;
+        height: 16%;
         width: 100%;
         background-color: #000;
     }
@@ -485,6 +485,7 @@
         flex-wrap: wrap;
         width: 100vw;
         margin: 0 auto;
+        background-color: #000;
     }
 
     .high_box{
@@ -493,6 +494,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        background-color: #000;
     }
     .under_box{
         width: 100%;
@@ -500,6 +502,7 @@
         justify-content: space-between;
         align-items: center;
         margin-left: 13%;
+        background-color: #000;
     }
 
     .sns{
