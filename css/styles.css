@@ -177,7 +177,7 @@
     h1{
 
         margin-top: 70px;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
         text-align: center;
         color: #333;
         font-size: 4rem;
@@ -268,7 +268,7 @@
     .this_week{
         height: 6vw;
         width: 65vw;
-        margin-top: 10%;
+        margin-top: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
