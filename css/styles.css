@@ -236,7 +236,7 @@
         align-items: center;
     }
     .chart_content_box{
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -276,14 +276,14 @@
         margin-right: auto;
     }
     .nav_chart{
-        width: 114rem;
+        width: 90%;
         height: 2rem;
         border: solid #333;
         background-color: #333;
         display: flex;
         justify-content: space-between;
         align-content: center;
-        margin-left: 10%;
+        margin-left: 14%;
         margin-right: 10%;
         color: #fff;
     }
@@ -297,7 +297,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-right: 23%;
+        margin-right: 6%;
     }
     .information{
         margin-top: 0.5rem;
